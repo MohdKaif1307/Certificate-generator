@@ -12,13 +12,13 @@ from reportlab.pdfbase.ttfonts import TTFont
 
 # ================== CONFIG ==================
 BASE_DIR = Path(__file__).resolve().parent
-CSV_PATH       = "C:/Users/moham/OneDrive/Desktop/Mohali/sample.csv"   # CSV columns: name,mobile
-TEMPLATE_PNG   = "C:/Users/moham/OneDrive/Desktop/Mohali/template.png"
-OUTPUT_DIR     = "C:/Users/moham/OneDrive/Desktop/Mohali/output"
+CSV_PATH       = "./sample.csv"   # CSV columns: name,mobile
+TEMPLATE_PNG   = "./template.png"
+OUTPUT_DIR     = "./output"
 URL_PREFIX     = "/egc"
 
 # Font
-FONT_PATH      = "C:/Users/moham/OneDrive/Desktop/Mohali/LucidaUnicodeCalligraphyBold.ttf"
+FONT_PATH      = "./LucidaUnicodeCalligraphyBold.ttf"
 FONT_NAME      = "LucidaUnicodeCalligraphyBold"
 NAME_FONT_SIZE = 125
 
