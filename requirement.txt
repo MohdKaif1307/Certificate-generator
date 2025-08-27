@@ -1,0 +1,9 @@
+Flask>=3.0,<4
+reportlab>=4.0,<5
+waitress>=3.0,<4
+
+# Optional (Linux deploy ke liye):
+# gunicorn>=21.2,<22
+
+# Optional (agar kuch PNG/JPG load issues aayen):
+# Pillow>=10.0,<11
